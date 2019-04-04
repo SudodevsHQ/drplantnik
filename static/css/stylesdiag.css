@@ -1,42 +1,106 @@
 html {
-    font-size: 16px;
-    overflow:hidden;
-  }
-  
-  body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  h1 {
-    /* Dr. Plantnik */
-    font-family: Montserrat;
-    font-style: medium;
-    font-weight: 900;
-    font-size: 4rem;
-    line-height: normal;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  
-  .section {
-    height: 100vh;
-    overflow-x: hidden;
-    text-align: center;
-    position: relative;
-  }
-  .predict{
-    margin:0;
-    margin-top:-60px;
-    width: 100vw;
-    height: 60vh;
-    top:0px;
- }
-  
- .graph{
-   padding: 20px;
-width: 100vw;
-height: 40vh;
-top:60vh; 
+  font-size: 16px;
+  overflow: hidden;
+  color: white;
+  background: url("../assets/predictback.png");
+  background: contain;
 }
- 
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+  padding-left: 2 em;
+  padding-right: 2 em;
+  margin-left: 10%;
+  margin-top:-2%
+}
+
+h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 247, 247, 0.78);
+  padding: 0.75em;
+  margin-top:-1%;
+}
+
+.info{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  
+  color: #217B51;
+  text-align: left;
+  line-height: 90%;
+}
+.desc{
+  color:white;
+  font-size: 1rem;
+  margin-top:5%;
+  line-height: 110%
+}
+
+.section {
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.predict {
+  margin: 0;
+  margin-top: -60px;
+  width: 100vw;
+  height: 60vh;
+  top: 0px;
+}
+
+.graph {
+  padding-top: 20px;
+  margin-top:7%;
+  /* margin:0; */
+  width: 100vw;
+  height: 40vh;
+  top: 60vh;
+}
+.links{
+  background: #217B51;
+}
+.home{
+  background:rgba(255,255,255,0);
+  border:solid 1px #fff;
+  border-radius: 8px;
+}
+.home:hover{
+  background: #217B51;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    font-size: 10px;
+  }
+  .container{
+    margin: 0;
+  }
+  .section{
+    margin:0;
+  }
+  .h1{
+    font-size:5em;
+    margin-left:-10%;
+  }
+  .info{
+    font-size: 4em;
+    line-height:140%;
+  }
+}

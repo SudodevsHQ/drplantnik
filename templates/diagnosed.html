@@ -2,76 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../static/main.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Plantnik</title>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('.materialboxed');
-            var instances = M.Materialbox.init(elems, options);
-        });
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-        // Or with jQuery
 
-        $(document).ready(function () {
-            $('.materialboxed').materialbox();
-        });
-    </script> -->
-    <style>
-        html {
-            background: rgb(41, 41, 41);
-            color: white
-        }
-
-        .container {
-            text-align: center;
-            color: white;
-            background: rgb(41, 41, 41);
-        }
-
-        img {
-            border-radius: .5em;
-            width: auto;
-            height: auto;
-        }
-        .home {
-            margin: 1em;
-        }
-    </style>
-    <title>Document</title>
+  <link rel="stylesheet" href="/static/css/stylesdiag.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <div class="head">
-            <h3>Disease: {{ name }}</h3>
-            {% if common%}
-                <h3>Common name: {{ common }}</h3>
-            {% endif %}
+  <div class="section">
+    <div class="row predict">
+      <h1 class="h1">PREDICTIONS</h1>
+      <div class="container">
+        <div class="col s12 m8 info">
+          {% if common%}
+                Disease: {{ common }}
+            {% endif %}<br>
+          Scientific Name: {{ name }}<br>
+          <p class="desc">lorem ipsum set amet lorem ipsum set ametlorem ipsum set ametlorem ipsum set ametlorem ipsum set ametlorem ipsum set amet</p>
 
         </div>
-        <img src="/static/{{filename}}" alt="you suck dicc">
-        <br>
-        <div class="searches">
-                {% for result in list %}
-                <a href='{{ result }}' target="_blank">{{ result }}</a><br>
-              {% endfor %}
-
+        <div class="col s12 m4">
+          <img class="not-responsive-img predicted" height="280px" src="/static/{{filename}}">
         </div>
-        <div class="medication">
-            <p>{{ para }}</p>
-        </div>
-        <img src="/static/chart.png" alt="you suck dicc">
-        <div class="home ">
-            <a class= "btn waves-effect waves-light" href="http://127.0.0.1:5000">Home</a>
-        </div>
+      </div>
     </div>
+    <div class="row graph">
+      <div class="col s12 m6">
+        <img src="/static/chart.png" alt="Graph" class="resposive-img">
+      </div>
+      <div class="valign-wrapper">
+      <button class="links waves-effect waves-light btn-large">Know More</button> 
+      <a href="http://127.0.0.1:5000"><button class="home waves-effect waves-light btn-large">Upload another image</button></a> 
+    </div>
+    </div>
+  </div>
+
+  <div class="description">
+
+  </div>
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/static/js/script.js"></script>
+
+  </script>"
 </body>
 
 </html>
