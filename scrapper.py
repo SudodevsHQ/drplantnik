@@ -16,7 +16,7 @@ class Google:
             query_string = {"key":key,"cx":cx,"num":"10","q":q}
         response = requests.request("GET", url, params=query_string)
         json_data = json.loads(response.text)
-        json_data = [json_data["items"][i]["link"] for i in range(10)]
+        json_data = [json_data["items"][i]["link"] for i in range(5)]
         return json_data
 
     # Google Command, clumsy but works~

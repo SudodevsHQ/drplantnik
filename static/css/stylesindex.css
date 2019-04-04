@@ -55,8 +55,10 @@ h1 {
   }
 }
 .upload,.btn-file{
-  background-color: #0C161E;
+  /* background-color: #0C161E; */
   border-radius: 10px;
+  background: white;
+  color:black;
 }
 .upload:hover,.btn-file:hover{
   background: #217B51;
