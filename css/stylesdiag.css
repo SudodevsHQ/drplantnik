@@ -1,45 +1,75 @@
 html {
-    font-size: 16px;
-    overflow:hidden;
-    color:white;
-  }
-  
-  body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background: url("../assets/predictback.png");
-    background: contain;
-  }
-  
-  h1 {
-    /* Dr. Plantnik */
-    font-family: Montserrat;
-    font-style: medium;
-    font-weight: 900;
-    font-size: 4rem;
-    line-height: normal;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  
-  .section {
-    height: 100vh;
-    overflow-x: hidden;
-    text-align: center;
-    position: relative;
-  }
-  .predict{
-    margin:0;
-    margin-top:-60px;
-    width: 100vw;
-    height: 60vh;
-    top:0px;
- }
-  
- .graph{
-   padding: 20px;
-width: 100vw;
-height: 40vh;
-top:60vh; 
+  font-size: 16px;
+  overflow: hidden;
+  color: white;
+  background: url("../assets/predictback.png");
+  background: contain;
 }
- 
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+  padding-left: 2 em;
+  padding-right: 2 em;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 247, 247, 0.78);
+  padding: 0.75em;
+}
+.dname {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: normal;
+letter-spacing: 0.03em;
+
+color: #217B51;
+
+}
+.sname {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: normal;
+letter-spacing: 0.03em;
+
+color: #217B51;
+
+}
+
+
+
+.section {
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.predict {
+  margin: 0;
+  margin-top: -60px;
+  width: 100vw;
+  height: 60vh;
+  top: 0px;
+}
+
+.graph {
+  padding: 20px;
+  width: 100vw;
+  height: 40vh;
+  top: 60vh;
+}
