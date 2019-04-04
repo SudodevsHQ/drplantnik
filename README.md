@@ -25,11 +25,12 @@
 
 
 ### Add-ons
-`->` Remediation measure
-`->` Probability graph
-`->` Resourceful hyperlinks
+`->` Remediation measure.
+`->` Probability graph.
+`->` Resourceful hyperlinks.
 
-###Installation
+### Installation and deployment
+
 ```python -m pip install -r requirements.txt```
 ```python main.py```
 
