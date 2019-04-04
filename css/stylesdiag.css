@@ -1,12 +1,15 @@
 html {
     font-size: 16px;
     overflow:hidden;
+    color:white;
   }
   
   body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background: url("../assets/predictback.png");
+    background: contain;
   }
   
   h1 {
