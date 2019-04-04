@@ -22,6 +22,15 @@
 - Successful identification of `26 Diseases`.
 - Highly `scalable` and `easy to deploy`.
 
+<h4 align="center">Desktop version</h4>
+<p align="center">
+<img src ="./static/assets/2019-04-05_02-06-41.gif">
+</p>
+
+<h4 align="center">Mobile version</h4>
+<p align="center">
+<img src ="./static/assets/2019-04-05_02-11-30.gif">
+</p>
 
 
 ### Add-ons
