@@ -1,0 +1,63 @@
+html {
+  font-size: 16px;
+  overflow:
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  /* Dr. Plantnik */
+  font-family: Montserrat;
+  font-style: medium;
+  font-weight: 900;
+  font-size: 8rem;
+  line-height: normal;
+  color: rgba(255, 247, 247, 0.8);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section {
+  height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+#a {
+  position: relative;;
+  background: url("../assets/leaves.png");
+  background-size: cover;
+}
+
+#b {
+  position: relative;;
+  background: #0C9C5F;
+  padding-top: 3rem
+}
+.main{
+  position: relative;
+}
+
+.section .h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    font-size: 10px;
+  }
+  .getstarted{
+    margin-top:64px;
+  }
+}
+.upload,.btn-file{
+  background-color: #0C161E;
+  border-radius: 10px;
+}
+.upload:hover,.btn-file:hover{
+  background: #217B51;
+}
