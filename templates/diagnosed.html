@@ -39,7 +39,7 @@
       <div class="s12 m4">
         <div class="searches white-text">
           {% for result in list %}
-          <p><a class="white-text" href='{{ result }}' target="_blank">{{ result }}</a><br></p>
+          <p><a class="white-text" href='{{ result }}' target="_blank">{{ result[:30] + "..." }}</a><br></p>
           {% endfor %}
 
         </div>

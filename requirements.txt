@@ -3,6 +3,6 @@ keras
 numpy
 opencv-python
 matplotlib
-Google
 asyncio
 tensorflow
+requests
