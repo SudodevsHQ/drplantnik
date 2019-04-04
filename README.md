@@ -26,7 +26,9 @@
 
 ### Add-ons
 `->` Remediation measure.
+
 `->` Probability graph.
+
 `->` Resourceful hyperlinks.
 
 ### Installation and deployment
