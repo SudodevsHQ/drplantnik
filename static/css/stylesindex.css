@@ -64,7 +64,6 @@ h1 {
   padding-left:auto;
   border-radius: 10px;
   background-color: white;
-  font-weight: 900;  
 }
 .upload:hover,.btn-file:hover{
   background: #217B51;
@@ -77,4 +76,11 @@ h1 {
   border-radius:12px;
   background: #217B51;
 }
-
+.up{
+  background: #0C161E;
+  color:white;
+  border-radius:12px; 
+}
+.btn-wrapper:hover button{
+  background: #217B51;
+}

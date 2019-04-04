@@ -125,8 +125,7 @@ def upload_file():
             return render_template("404.html")
 
 
-saa = ""
-
+    
 
 @app.route('/diagnosed/<filename>')
 def diagnosed(filename):
