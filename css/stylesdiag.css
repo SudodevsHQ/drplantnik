@@ -80,6 +80,7 @@ h1 {
   background:rgba(255,255,255,0);
   border:solid 1px #fff;
   border-radius: 8px;
+  margin-left: 1.2em; 
 }
 .home:hover{
   background: #217B51;
