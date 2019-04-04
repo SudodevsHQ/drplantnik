@@ -35,10 +35,10 @@ h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 2.5rem;
   line-height: normal;
   letter-spacing: 0.03em;
-  
+  margin-left:10%;
   color: #217B51;
   text-align: left;
   line-height: 90%;
@@ -64,11 +64,16 @@ h1 {
   height: 60vh;
   top: 0px;
 }
+.names{
+  line-height:120%;
+  font-size:2.5rem;
+  letter-spacing: 0.03rem;
+  color:#217B51;
+}
 
 .graph {
   padding-top: 20px;
-  margin-top:7%;
-  /* margin:0; */
+  margin-top:12%;
   width: 100vw;
   height: 40vh;
   top: 60vh;
@@ -80,6 +85,7 @@ h1 {
   background:rgba(255,255,255,0);
   border:solid 1px #fff;
   border-radius: 8px;
+  margin-left: 1.2em; 
 }
 .home:hover{
   background: #217B51;
@@ -103,4 +109,18 @@ h1 {
     font-size: 4em;
     line-height:140%;
   }
+}
+
+.description{
+  position: absolute;
+    z-index: 9000;
+  width:100vw;
+  height:50vh;
+  top:100vh;
+  /* top:0; */
+  background: url("../assets/end.png");
+
+}
+.bot{
+  z-index:10000;
 }

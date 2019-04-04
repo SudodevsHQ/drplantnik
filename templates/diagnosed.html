@@ -18,42 +18,39 @@
   <div class="section">
     <div class="row predict">
       <h1 class="h1">PREDICTIONS</h1>
-      <div class="container">
-        <div class="col s12 m8 info">
-          {% if common%}
-          Disease: <span style="color:white">{{ common }}</span>
-          {% endif %}<br>
-          Scientific Name: <span style="color:white">{{ name }}</span><br>
+        <div class="col s12 m5 offset-m1 info">
+          <div class="names">
+              {% if common%}
+            Disease Name<br><span style="color:white">{{ common }}</span><br>
+            {% endif %}
+            Scientific Name<br><span style="color:white">{{ name }}</span><br>
+        </div>
           <p class="desc">{{ para }}</p>
 
         </div>
-        <div class="col s12 m4">
-          <img class="not-responsive-img predicted" height="280px" src="/static/{{filename}}">
+        <div class="col s12 m5 offset-m1">
+          <img class="responsive-img predicted"  src="/static/{{ filename }}">
         </div>
-      </div>
     </div>
-    <div class="row graph">
-      <div class="col s12 m8">
-        <img src="/static/chart.png" alt="Graph" class="resposive-img">
+    <div class="row graph valign-wrapper">
+      <div class="col s12 m2 offset-m1">
+        <img src="/static/chart.png" alt="Graph" height="300px" class="resposive-img">
       </div>
-      <div class="s12 m4">
-        <div class="searches white-text">
-          {% for result in list %}
-          <p><a class="white-text" href='{{ result }}' target="_blank">{{ result }}</a><br></p>
-          {% endfor %}
-
-        </div>
-      </div>
-      <!-- <div class="valign-wrapper"> -->
-
-        <!-- <button class="links waves-effect waves-light btn-large">Know More</button>  -->
-        <a href="http://127.0.0.1:5000"><button class="home waves-effect waves-light btn-large">Upload another
-            image</button></a>
-      <!-- </div> -->
+      <div class="col s12 m4 offset-m4 bot">
+      <button class="links waves-effect waves-light btn-large">Know More</button> 
+      <a href="http://127.0.0.1:5000"><button class="home waves-effect waves-light btn-large">Upload another image</button></a> 
+    </div>
     </div>
   </div>
 
-  <div class="description">
+  <div class="description atbottom">
+    <div class="row">
+      <div class="col s12 m8 offset-m4">
+       {% for result in list %}
+      <p><a class="white-text" href='{{ result }}' target="_blank">{{ result[:30] + "..." }}</a><br></p>
+      {% endfor %}
+    </div>
+  </div>
 
   </div>
 

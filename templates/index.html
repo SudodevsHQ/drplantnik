@@ -9,13 +9,13 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <link rel="stylesheet" href="/static/css/stylesindex.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
-
+  
   <div class="section valign-wrapper center-align" id="a">
     <!-- <img class="responsive-img" src="assets/leaves.jpeg" alt="leaves"> -->
     <div class="container main">
@@ -38,8 +38,10 @@
             <input class="file-path validate white-text " type="text">
           </div>
         </div>
-
-        <input type="submit" name="button" class="upload waves-effect waves-light btn-large upload" type=submit value="Upload">
+        <div class="progress transparent">
+          <div class="indeterminate transparent "></div>
+        </div>
+        <input class="upload waves-effect waves-light btn-large upload" onclick="$('.indeterminate').addClass('blue-grey lighten-5');" type="submit" name="button" value="UPLOAD" >
       </form>
     </div>
 

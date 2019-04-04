@@ -54,12 +54,27 @@ h1 {
     margin-top:64px;
   }
 }
-.upload,.btn-file{
-  /* background-color: #0C161E; */
+.btn-file{
+  background-color: #0C161E;
   border-radius: 10px;
-  background: white;
-  color:black;
+  /* background: white; */
+  color:white;
+}
+.upload{
+  padding-left:auto;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 900;  
 }
 .upload:hover,.btn-file:hover{
   background: #217B51;
 }
+.btn{
+  font-family: 'Titillium Web', sans-serif;
+
+}
+.getstarted{
+  border-radius:12px;
+  background: #217B51;
+}
+
