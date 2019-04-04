@@ -69,7 +69,7 @@ def classes(filename):
     # b,g,r = cv2.split(dst)           # get b,g,r
     # rgb_dst = cv2.merge([r,g,b]) 
     
-    # x = image.img_to_array(dst)
+    # x = image.img_to_array(dst)w
     x = np.expand_dims(x, axis=0)
 
     images = np.vstack([x])

@@ -14,7 +14,52 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
+
+<!-- ABQIAAAAMt9YZQaG_wbfmb2826e_wBTPUDO5TVHJS-HZdrhJpqnB5yZcfRQFObTd1-bPphEIY11228Z78VhA6A -->
+<!-- ABQIAAAAMt9YZQaG_wbfmb2826e_wBTPUDO5TVHJS-HZdrhJpqnB5yZcfRQFObTd1-bPphEIY11228Z78VhA6A -->
 <body>
+<<<<<<< HEAD
+=======
+
+  <script
+    src="/static/js/google.js">
+  
+  </script>
+  <script>
+  
+  var lang = "en";
+  var currentClass = "currentLang";
+
+  // Load the language lib
+  google.load("language", 1);
+
+  // When the DOM is ready....
+  $( document ).ready(function() {
+    console.log("sdffd");
+
+    // Retrieve the DIV to be translated.
+    var translateDiv = $("#asd");
+    // Define a function to switch from the currentlanguage to another
+    var callback = function (result) {
+      if (result.translation) {
+        translateDiv.set("html", result.translation);
+      }
+    };
+    // Add a click listener to update the DIV
+    $(".getstarted").click(function (e) {
+      // Stop the event
+      if (e) e.stop();
+      // Get the "to" language
+      var toLang = "hi";
+      // Set the translation into motion
+      google.language.translate(translateDiv.get("html"), "en", "hi", callback);
+      // Set the new language
+      lang = toLang;
+      // Add class to current
+      
+    });
+  });</script>
+>>>>>>> 8333dbf250ce3d41599704f8340435af7dcbb951
   
   <div class="section valign-wrapper center-align" id="a">
     <!-- <img class="responsive-img" src="assets/leaves.jpeg" alt="leaves"> -->
@@ -26,7 +71,7 @@
 
 
   <div class="section" id="b">
-    <h2 class="h2">Upload a photo of leaf to recognise</h2>
+    <h2 class="h2" id="asd">Upload a photo of leaf to recognise</h2>
     <div class="form container">
       <form action="" method=post enctype=multipart/form-data> <p>
         <div class="file-field input-field">
@@ -39,10 +84,18 @@
           </div>
         </div>
         <div class="progress transparent">
+<<<<<<< HEAD
           <div class="indeterminate transparent "></div>
         </div>
         <input class="upload waves-effect waves-light btn-large upload" onclick="$('.indeterminate').addClass('blue-grey lighten-5');" type="submit" name="button" value="UPLOAD" >
+=======
+          <div class="indeterminate transparent"></div>
+        </div>
+        <input type="submit" name="button" class="upload waves-effect waves-light btn-large" value=Upload>
+>>>>>>> 8333dbf250ce3d41599704f8340435af7dcbb951
       </form>
+
+
     </div>
 
   </div>

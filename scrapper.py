@@ -3,6 +3,7 @@ import json
 
 class Google:
 
+
     def g(self, query):
         
         start_index = 0
@@ -18,10 +19,3 @@ class Google:
         json_data = json.loads(response.text)
         json_data = [json_data["items"][i]["link"] for i in range(5)]
         return json_data
-
-    # Google Command, clumsy but works~
-    
-
-
-# print(Google().g("fuuuuuuuuuuck"))
-

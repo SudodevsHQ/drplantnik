@@ -1,0 +1,8 @@
+flask
+keras
+numpy
+opencv-python
+matplotlib
+asyncio
+tensorflow
+requests
