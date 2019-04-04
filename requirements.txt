@@ -1,7 +1,8 @@
 flask
 keras
 numpy
-python-opencv
+opencv-python
 matplotlib
 Google
 asyncio
+tensorflow
