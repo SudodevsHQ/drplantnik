@@ -15,6 +15,8 @@ body {
 .container{
   padding-left: 2 em;
   padding-right: 2 em;
+  margin-left: 10%;
+  margin-top:-2%
 }
 
 h1 {
@@ -26,31 +28,27 @@ h1 {
   letter-spacing: 0.03em;
   color: rgba(255, 247, 247, 0.78);
   padding: 0.75em;
+  margin-top:-1%;
 }
-.dname {
+
+.info{
   font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: normal;
-letter-spacing: 0.03em;
-
-color: #217B51;
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  
+  color: #217B51;
+  text-align: left;
+  line-height: 90%;
 }
-.sname {
-  font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: normal;
-letter-spacing: 0.03em;
-
-color: #217B51;
-
+.desc{
+  color:white;
+  font-size: 1rem;
+  margin-top:5%;
+  line-height: 110%
 }
-
-
 
 .section {
   height: 100vh;
@@ -68,8 +66,41 @@ color: #217B51;
 }
 
 .graph {
-  padding: 20px;
+  padding-top: 20px;
+  margin-top:7%;
+  /* margin:0; */
   width: 100vw;
   height: 40vh;
   top: 60vh;
+}
+.links{
+  background: #217B51;
+}
+.home{
+  background:rgba(255,255,255,0);
+  border:solid 1px #fff;
+  border-radius: 8px;
+}
+.home:hover{
+  background: #217B51;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    font-size: 10px;
+  }
+  .container{
+    margin: 0;
+  }
+  .section{
+    margin:0;
+  }
+  .h1{
+    font-size:5em;
+    margin-left:-10%;
+  }
+  .info{
+    font-size: 4em;
+    line-height:140%;
+  }
 }
