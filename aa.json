@@ -1,0 +1,172 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [{
+            "title": "Google Custom Search - hello world",
+            "totalResults": "925000000",
+            "searchTerms": "hello world",
+            "count": 10,
+            "startIndex": 1,
+            "inputEncoding": "utf8",
+            "outputEncoding": "utf8",
+            "safe": "off",
+            "cx": "002299373873344878019:yf5tyg0gmnq"
+        }],
+        "nextPage": [{
+            "title": "Google Custom Search - hello world",
+            "totalResults": "925000000",
+            "searchTerms": "hello world",
+            "count": 10,
+            "startIndex": 11,
+            "inputEncoding": "utf8",
+            "outputEncoding": "utf8",
+            "safe": "off",
+            "cx": "002299373873344878019:yf5tyg0gmnq"
+        }]
+    },
+    "context": {
+        "title": "Google"
+    },
+    "searchInformation": {
+        "searchTime": 0.663387,
+        "formattedSearchTime": "0.66",
+        "totalResults": "925000000",
+        "formattedTotalResults": "925,000,000"
+    },
+    "items": [{
+                "kind": "customsearch#result",
+                "title": "HelloWorld, A Merkle Company",
+                "htmlTitle": "<b>HelloWorld</b>, A Merkle Company",
+                "link": "https://www.helloworld.com/",
+                "displayLink": "www.helloworld.com",
+                "snippet": "A powerful combination of native technology and marketing strategy allowing \nbrands to create unforgettable interactions, drive consumer demand and\xa0...",
+                "htmlSnippet": "A powerful combination of native technology and marketing strategy allowing <br>\nbrands to create unforgettable interactions, drive consumer demand and&nbsp;...",
+                "cacheId": "4BTLBiu3r9oJ",
+                "formattedUrl": "https://www.helloworld.com/",
+                "htmlFormattedUrl": "https://www.<b>helloworld</b>.com/",
+                "pagemap": {
+                    "cse_thumbnail": [{
+                        "width": "225",
+                        "height": "225",
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfh1sLJSuzhAVuHNEwL0UYkc1PZkxRsbAtrY-iCO1C8ayblwAynYYm_yM"
+                    }],
+                    "metatags": [{
+                        "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+                        "twitter:card": "summary",
+                        "twitter:url": "http://www.helloworld.com/",
+                        "og:url": "https://www.helloworld.com/https://www.helloworld.com/",
+                        "og:description": "A powerful combination of native technology and marketing strategy allowing brands to create unforgettable interactions, drive consumer demand and accelerate growth.",
+                        "og:image": "https://www.helloworld.com/img/global/social-thumbnail.jpg"
+                    }],
+                    "cse_image": [{
+                        "src": "https://www.helloworld.com/img/global/social-thumbnail.jpg"
+                    }]
+                }
+            }, {
+                "kind": "customsearch#result",
+                "title": ""
+                Hello,
+                World!" program - Wikipedia",
+                "htmlTitle": "&quot;<b>Hello</b>, <b>World</b>!&quot; program - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program",
+                "displayLink": "en.wikipedia.org",
+                "snippet": "A "
+                Hello,
+                World!" program generally is a computer program that outputs or \ndisplays the message
+                "Hello, World!".Because it is very simple in most\ nprogramming\ xa0...", "
+                htmlSnippet ": "
+                A & quot; < b > Hello < /b>, <b>World</b > ! & quot;program generally is a computer program that outputs or < br > \ndisplays the message & quot; < b > Hello < /b>, <b>World</b > ! & quot;.Because it is very simple in most < br > \nprogramming & nbsp;...", "
+                cacheId ": "
+                UInCiDfJyeUJ ", "
+                formattedUrl ": "
+                https: //en.wikipedia.org/wiki/%22Hello,_World!%22_program", "htmlFormattedUrl": "https://en.wikipedia.org/wiki/%22<b>Hello</b>,_<b>World</b>!%22_program", "pagemap": {"cse_thumbnail": [{"width": "238", "height": "212", "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFLxy-NkoRc8X1raAyJEmapXg__cbu-F9ZuUs3fn__kf5vwMvqRQkmE2Y"}], "metatags": [{"referrer": "origin", "og:image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HelloWorld_Maktivism_ComputerProgramming_LEDs.jpg"}], "cse_image": [{"src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HelloWorld_Maktivism_ComputerProgramming_LEDs.jpg"}]}}, {"kind": "customsearch#result", "title": "hello world - YouTube", "htmlTitle": "<b>hello world</b> - YouTube", "link": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4", "displayLink": "www.youtube.com", "snippet": "Mar 30, 2018 ... a test of a virtual singer software - http://www.myriad-online.com/en/products/\nvirtualsinger.htm also, soundcloud!", "htmlSnippet": "Mar 30, 2018 <b>...</b> a test of a virtual singer software - http://www.myriad-online.com/en/products/<br>\nvirtualsinger.htm also, soundcloud!", "cacheId": "gNXPHeYjJnIJ", "formattedUrl": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4", "htmlFormattedUrl": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4", "pagemap": {"cse_thumbnail": [{"width": "300", "height": "168", "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzi32V4p0cRntOZhOruyS5yFwtfYuB4xzTGmHlbPVvxi29Jsrd1ZYrKhg"}], "metatags": [{"title": "hello world", "theme-color": "#ff0000", "og:site_name": "YouTube", "og:url": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4", "og:title": "hello world", "og:image": "https://i.ytimg.com/vi/Yw6u6YkTgQ4/maxresdefault.jpg", "og:description": "a test of a virtual singer software - http://www.myriad-online.com/en/products/virtualsinger.htm also, soundcloud! https://soundcloud.com/louie-zong/hello-world", "al:ios:app_store_id": "544007664", "al:ios:app_name": "YouTube", "al:ios:url": "vnd.youtube://www.youtube.com/watch?v=Yw6u6YkTgQ4&feature=applinks", "al:android:url": "vnd.youtube://www.youtube.com/watch?v=Yw6u6YkTgQ4&feature=applinks", "al:android:app_name": "YouTube", "al:android:package": "com.google.android.youtube", "al:web:url": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4&feature=applinks", "og:type": "video.other", "og:video:url": "https://www.youtube.com/embed/Yw6u6YkTgQ4", "og:video:secure_url": "https://www.youtube.com/embed/Yw6u6YkTgQ4", "og:video:type": "text/html", "og:video:width": "1280", "og:video:height": "720", "og:video:tag": "bossa nova", "fb:app_id": "87741124305", "twitter:card": "player", "twitter:site": "@youtube", "twitter:url": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4", "twitter:title": "hello world", "twitter:description": "a test of a virtual singer software - http://www.myriad-online.com/en/products/virtualsinger.htm also, soundcloud! https://soundcloud.com/louie-zong/hello-world", "twitter:image": "https://i.ytimg.com/vi/Yw6u6YkTgQ4/maxresdefault.jpg", "twitter:app:name:iphone": "YouTube", "twitter:app:id:iphone": "544007664", "twitter:app:name:ipad": "YouTube", "twitter:app:id:ipad": "544007664", "twitter:app:url:iphone": "vnd.youtube://www.youtube.com/watch?v=Yw6u6YkTgQ4&feature=applinks", "twitter:app:url:ipad": "vnd.youtube://www.youtube.com/watch?v=Yw6u6YkTgQ4&feature=applinks", "twitter:app:name:googleplay": "YouTube", "twitter:app:id:googleplay": "com.google.android.youtube", "twitter:app:url:googleplay": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4", "twitter:player": "https://www.youtube.com/embed/Yw6u6YkTgQ4", "twitter:player:width": "1280", "twitter:player:height": "720"}], "videoobject": [{"url": "https://www.youtube.com/watch?v=Yw6u6YkTgQ4", "name": "hello world", "description": "a test of a virtual singer software - http://www.myriad-online.com/en/products/virtualsinger.htm also, soundcloud! https://soundcloud.com/louie-zong/hello-world", "paid": "False", "channelid": "UCdkkQvJoB0kGgYHCYwSkdww", "videoid": "Yw6u6YkTgQ4", "duration": "PT1M56S", "unlisted": "False", "thumbnailurl": "https://i.ytimg.com/vi/Yw6u6YkTgQ4/maxresdefault.jpg", "embedurl": "https://www.youtube.com/embed/Yw6u6YkTgQ4", "playertype": "HTML5 Flash", "width": "1280", "height": "720", "isfamilyfriendly": "True", "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...", "interactioncount": "2245961", "datepublished": "2018-03-30", "genre": "Film & Animation"}], "imageobject": [{"url": "https://i.ytimg.com/vi/Yw6u6YkTgQ4/maxresdefault.jpg", "width": "1280", "height": "720"}], "person": [{"url": "http://www.youtube.com/user/everydaylouie"}, {"url": "https://plus.google.com/108336120508406936066"}], "cse_image": [{"src": "https://i.ytimg.com/vi/Yw6u6YkTgQ4/maxresdefault.jpg"}]}}, {"kind": "customsearch#result", "title": "The Hello World Collection", "htmlTitle": "The <b>Hello World</b> Collection", "link": "http://helloworldcollection.de/", "displayLink": "helloworldcollection.de", "snippet": "The largest collection of Hello World programs on the Internet.", "htmlSnippet": "The largest collection of <b>Hello World</b> programs on the Internet.", "cacheId": "H7J2ma_n938J", "formattedUrl": "helloworldcollection.de/", "htmlFormattedUrl": "<b>helloworld</b>collection.de/", "pagemap": {"metatags": [{"author": "Wolfram Roesler", "date": "2019-02-24T11:19:11+0100"}]}}, {"kind": "customsearch#result", "title": "Hello, World! - Learn Python - Free Interactive Python Tutorial", "htmlTitle": "<b>Hello</b>, <b>World</b>! - Learn Python -
+                    Free Interactive Python Tutorial ", "
+                link ": "
+                https: //www.learnpython.org/en/Hello,_World!", "displayLink": "www.learnpython.org", "snippet": "Hello, World! Python is a very simple language, and has a very straightforward \nsyntax. It encourages programmers to program without boilerplate (prepared)\xa0...", "htmlSnippet": "<b>Hello</b>, <b>World</b>! Python is a very simple language, and has a very straightforward <br>\nsyntax. It encourages programmers
+                    to program without boilerplate(prepared) & nbsp;...", "
+                cacheId ": "
+                DUlbPV2A5dIJ ", "
+                formattedUrl ": "
+                https: //www.learnpython.org/en/Hello,_World!", "htmlFormattedUrl": "https://www.learnpython.org/en/<b>Hello</b>,_<b>World</b>!", "pagemap": {"cse_thumbnail": [{"width": "200", "height": "200", "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgbQzN87YWgRywHA3dQlPZbuSfPCFjzGSSCtLVOsDBAAgkdRdWjpFu4BE"}], "metatags": [{"viewport": "width=device-width, initial-scale=1", "og:title": "Hello, World! - Learn Python - Free Interactive Python Tutorial", "og:type": "website", "og:url": "http://learnpython.org/", "og:image": "http://learnpython.org/static/img/share-logos/learnpython-share.png"}], "cse_image": [{"src": "http://learnpython.org/static/img/share-logos/learnpython-share.png"}]}}, {"kind": "customsearch#result", "title": "Hello, World! - Learn Java - Free Interactive Java Tutorial", "htmlTitle": "<b>Hello</b>, <b>World</b>! - Learn Java - Free Interactive Java Tutorial", "link": "https://www.learnjavaonline.org/en/Hello,_World!", "displayLink": "www.learnjavaonline.org", "snippet": "Hello, World! Java is an object oriented language (OOP). Java objects are part of \nso-called "Java classes". Let\"s go over the Hello world program, which simply\xa0...", "htmlSnippet": "<b>Hello</b>, <b>World</b>! Java is an object oriented language (OOP). Java objects are part of <br>\nso-called &quot;Java classes&quot;. Let&#39;s go over the <b>Hello world</b> program, which simply&nbsp;...", "cacheId": "9P53Ehs8IxEJ", "formattedUrl": "https://www.learnjavaonline.org/en/Hello,_World!", "htmlFormattedUrl": "https://www.learnjavaonline.org/en/<b>Hello</b>,_<b>World</b>!", "pagemap": {"cse_thumbnail": [{"width": "200", "height": "200", "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oy6gew4IP4q6Nn8vIgbr91J1dTjjXTc8iMshxTF5uilHzaS1Sr3JnfAp"}], "metatags": [{"viewport": "width=device-width, initial-scale=1", "og:title": "Hello, World! - Learn Java - Free Interactive Java Tutorial", "og:type": "website", "og:url": "http://learnjavaonline.org/", "og:image": "http://learnjavaonline.org/static/img/share-logos/learnjavaonline-share.png"}], "cse_image": [{"src": "http://learnjavaonline.org/static/img/share-logos/learnjavaonline-share.png"}]}}, {"kind": "customsearch#result", "title": "Hello World - Home & Lifestlye", "htmlTitle": "<b>Hello World</b> - Home &amp; Lifestlye", "link": "https://shophelloworld.com/", "displayLink": "shophelloworld.com", "snippet": "Hello World . Philadelphia . Home & Lifestyle . Modern Furniture . Decor . Jewelry \n. Chilewich . Gifts.", "htmlSnippet":
+                    "<b>Hello World</b> . Philadelphia . Home &amp; Lifestyle . Modern Furniture . Decor . Jewelry <br>\n. Chilewich . Gifts.",
+                "cacheId": "nXxyhCa9L0sJ",
+                "formattedUrl": "https://shophelloworld.com/",
+                "htmlFormattedUrl": "https://shop<b>helloworld</b>.com/",
+                "pagemap": {
+                    "cse_thumbnail": [{
+                        "width": "225",
+                        "height": "225",
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTp4Ab0rB3mhjccO39B_xfv3F3YI8HA67a7RkEgqz1EkCIbeJMeKkZHGQrG"
+                    }],
+                    "metatags": [{
+                        "viewport": "width=device-width,initial-scale=1",
+                        "theme-color": "#7796a8",
+                        "og:site_name": "Hello World",
+                        "og:url": "https://shophelloworld.com/",
+                        "og:title": "Hello World - Home & Lifestlye",
+                        "og:type": "website",
+                        "og:description": "Hello World . Philadelphia . Home & Lifestyle . Modern Furniture . Decor . Jewelry . Chilewich . Gifts",
+                        "twitter:site": "@HelloWorldPHL",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "Hello World - Home & Lifestlye",
+                        "twitter:description": "Hello World . Philadelphia . Home & Lifestyle . Modern Furniture . Decor . Jewelry . Chilewich . Gifts",
+                        "shopify-digital-wallet": "/439642/digital_wallets/dialog"
+                    }],
+                    "organization": [{
+                        "url": "Hello World"
+                    }],
+                    "cse_image": [{
+                        "src": "https://cdn.shopify.com/s/files/1/0043/9642/products/truffles_250x250@2x.jpg?v=1541535252"
+                    }]
+                }
+            }, {
+                "kind": "customsearch#result",
+                "title": "Hello World Studio",
+                "htmlTitle": "<b>Hello World</b> Studio",
+                "link": "https://www.helloworldstudio.org/",
+                "displayLink": "www.helloworldstudio.org",
+                "snippet": "Hello World. Computer science enrichment programs taught by software \nengineers, AI architects, data scientists and educators on a mission to equip and\n\xa0...",
+                "htmlSnippet": "<b>Hello World</b>. Computer science enrichment programs taught by software <br>\nengineers, AI architects, data scientists and educators on a mission to equip and<br>\n&nbsp;...",
+                "cacheId": "7GkArFo05XQJ",
+                "formattedUrl": "https://www.helloworldstudio.org/",
+                "htmlFormattedUrl": "https://www.<b>helloworlds</b>tudio.org/",
+                "pagemap": {
+                    "cse_thumbnail": [{
+                        "width": "275",
+                        "height": "183",
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WOeWcipEwzkPNi6bmRC8VuelllH3Z0J8PHH698qqmp-8C02tgR1tC-4"
+                    }],
+                    "metatags": [{
+                                "viewport": "width=device-width, initial-scale=1",
+                                "og:site_name": "Hello World",
+                                "og:title": "Hello World",
+                                "og:url": "https://www.helloworldstudio.org/",
+                                "og:type": "website",
+                                "og:description": "Hello World   Computer science enrichment programs taught by software engineers, AI architects, data scientists and educators on a mission to equip and empower next generation innovators  &nbsp;   Spring   Summer",
+                                "twitter:title": "Hello World",
+                                "twitter:url": "https://www.helloworldstudio.org/",
+                                "twitter:card": "summary",
+                                "twitter:description": "Hello World   Computer science enrichment programs taught by software engineers, AI architects, data scientists and
+                                educators on a mission to equip and empower next generation innovators & nbsp;Spring Summer "}], "
+                                webpage ": [{"
+                                name ": "
+                                Hello World ", "
+                                url ": "
+                                https: //www.helloworldstudio.org/", "description": "Hello World Computer science enrichment programs taught by software engineers, AI architects, data scientists and educators on a mission to equip and empower next generation innovators Spring Summer"}], "cse_image": [{"src": "https://static1.squarespace.com/static/56f18ec601dbae5d39d46fe8/t/5bfdc089352f535ba44c9f72/1543356562577/_DSC4120.jpg"}]}}, {"kind": "customsearch#result", "title": "Express "Hello World" example", "htmlTitle": "Express &quot;<b>Hello World</b>&quot; example",
+                                    "link": "https://expressjs.com/en/starter/hello-world.html",
+                                "displayLink": "expressjs.com",
+                                "snippet": "Hello world example. Embedded below is essentially the simplest Express app \nyou can create. It is a single file app — not what you"
+                                d get if you use the Express\ xa0...", "
+                                htmlSnippet ": " < b > Hello world < /b> example. Embedded below is essentially the simplest Express app <br>\nyou can create. It is a single file app — not what you&#39;d get if you use the Express&nbsp;...", "cacheId": "Ag5WPLoY5PIJ", "formattedUrl": "https:/ / expressjs.com / en / starter / hello - world.html ", "
+                                htmlFormattedUrl ": "
+                                https: //expressjs.com/en/starter/<b>hello</b>-<b>world</b>.html", "pagemap": {"cse_thumbnail": [{"width": "374", "height": "135", "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQkDB2aWrpzUyql-VCFAdpHstna-_dqmQ845_hD8YjdljTeTUdoXGUFEYMo"}], "metatags": [{"viewport": "width=device-width, initial-scale=1", "og:image": "https://expressjs.com/images/express-facebook-share.png"}], "cse_image": [{"src": "https://expressjs.com/images/express-facebook-share.png"}]}}, {"kind": "customsearch#result", "title": "hello-world - Docker Hub", "htmlTitle": "<b>hello</b>-<b>world</b> - Docker Hub", "link": "https://hub.docker.com/_/hello-world", "displayLink": "hub.docker.com", "snippet": "There is no available description for this repository. Please log in to write a \nreview of this product. Explore. Docker EditionsContainersPluginsPricing. \nAccount.", "htmlSnippet": "There is no available description for this repository. Please log in to write a <br>\nreview of this product. Explore.
+                                    Docker EditionsContainersPluginsPricing. < br > \nAccount.
+                                ", "
+                                cacheId ": "
+                                tEhWFJYWINkJ ", "
+                                formattedUrl ": "
+                                https: //hub.docker.com/_/hello-world", "htmlFormattedUrl": "https://hub.docker.com/_/<b>hello</b>-<b>world</b>", "pagemap": {"metatags": [{"viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"}]}}]}

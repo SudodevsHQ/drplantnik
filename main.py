@@ -11,13 +11,22 @@ import numpy as np
 import cv2
 from fetus_deletus import static_clear
 import matplotlib.pyplot as plt
-from fuck import d
+from chunk import d
 # predicting images
 
+OUT_OF_SCOPE = False
 
 def graph(classes, dict):
     top_indices = np.argsort(classes[0])[-3:]
     top_values = classes[0][top_indices][-3:]
+
+    # """UNKNOWN SAMPLE CODE"""
+    # print(int(str(clss[np.argmax(clss)]).split("e")))
+    # print(str(top_values[2]).split("e"))
+    # tlist = top_values.tolist()
+    # print(tlist)
+    # if int(str(tlist[2]).split("e")[1]) <= -3:
+    #     OUT_OF_SCOPE = True
 
     print(top_indices)
     print(top_values)
@@ -25,12 +34,15 @@ def graph(classes, dict):
     x = np.arange(len(top_indices))
     y = top_values
 
-    plt.bar(x,top_values,width=0.6,alpha=0.5)
+    plt.bar(x, top_values, width=0.6, alpha=0.5)
     plt.xlabel('Disease')
-    plt.xticks(x, [dict[str(i)][1] for i in top_indices], fontsize=20, rotation=30)
+    plt.xticks(x, [dict[str(i)][1]
+                   for i in top_indices], fontsize=10)
 
     plt.title('Probability')
-    plt.savefig('static/chart.png', transparent = True)
+    # plt.show()
+    plt.savefig('static/chart.png')
+
 
 def classes(filename):
     # dimensions of our images
@@ -50,17 +62,25 @@ def classes(filename):
 
     img = cv2.resize(img, (img_width, img_height))
     x = image.img_to_array(img)
+    # """NOISE"""
+    # b,g,r = cv2.split(img)           # get b,g,r
+    # rgb_img = cv2.merge([r,g,b])     # switch it to rgb
+    # dst = cv2.fastNlMeansDenoisingColored(img,None,10,10,7,21)
+    # b,g,r = cv2.split(dst)           # get b,g,r
+    # rgb_dst = cv2.merge([r,g,b]) 
+    
+    # x = image.img_to_array(dst)
     x = np.expand_dims(x, axis=0)
 
     images = np.vstack([x])
     classes = model.predict_classes(images, batch_size=10)
     clss = model.predict(images, batch_size=10)
-
+    
 
 
 # print the classes, the images belong to
 
-    disease_dict = d 
+    disease_dict = d
     graph(clss, disease_dict)
 
     K.clear_session()
@@ -111,19 +131,24 @@ saa = ""
 @app.route('/diagnosed/<filename>')
 def diagnosed(filename):
     disease = classes(filename)
-    medication = Google().g(disease[0] + " medication")
-    print(medication)
-    if disease[1]:
-        common = disease[1]
-    else:
-        common = None
+    if not OUT_OF_SCOPE:
+        try:
+            medication = Google().g(disease[0] + " medication")
+        except Exception:
+            medication = ["Google Failed to", " response", "."]
 
-    if disease[2]:
-        med = disease[2]
+        # print(medication)
+        if disease[1]:
+            common = disease[1]
+        else:
+            common = None
+        try:
+            med = disease[2]
+        except Exception:
+            med = None
     else:
-        med = None
-    
-
+        disease = "Unknown"
+        medication = "Provided sample is out of the trained dataset scope."
     return render_template("diagnosed.html", name=disease[0], filename=filename, list=medication, common=common, para=med)
 
 
