@@ -45,7 +45,9 @@ h1 {
 }
 .desc{
   color:white;
-  font-size: 1rem;
+  font-size: 2rem;
+  font-family: 'Titillium Web', sans-serif;
+
   margin-top:5%;
   line-height: 110%
 }
