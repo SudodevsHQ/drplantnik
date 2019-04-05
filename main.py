@@ -12,11 +12,12 @@ import cv2
 from fetus_deletus import static_clear
 import matplotlib.pyplot as plt
 from chunk import d
+import random
 # predicting images
 
 OUT_OF_SCOPE = False
-
-def graph(classes, dict):
+cap = random.randint(0, 10)
+def graph(classes, dict, name):
     top_indices = np.argsort(classes[0])[-3:]
     top_values = classes[0][top_indices][-3:]
 
@@ -41,7 +42,9 @@ def graph(classes, dict):
 
     plt.title('Probability')
     # plt.show()
-    plt.savefig('static/chart.png')
+    
+    print(cap)
+    plt.savefig(f"static/chart_{name}.png")
 
 
 def classes(filename):
@@ -81,7 +84,7 @@ def classes(filename):
 # print the classes, the images belong to
 
     disease_dict = d
-    graph(clss, disease_dict)
+    graph(clss, disease_dict, filename)
 
     K.clear_session()
 
@@ -149,7 +152,7 @@ def diagnosed(filename):
     else:
         disease = "Unknown"
         medication = "Provided sample is out of the trained dataset scope."
-    return render_template("diagnosed.html", name=disease[0], filename=filename, list=medication, common=common, para=med)
+    return render_template("diagnosed.html", name=disease[0], filename=filename, list=medication, common=common, para=med, cap=filename)
 
 
 if __name__ == '__main__':
